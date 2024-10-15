@@ -1,8 +1,12 @@
 load balance
 -ผ่านตัวกลางเป็น API gateway ...
 -กระจาย traffic จาก api ไป webserver เเต่ละตัว
--มีวิธี 2 เเบบ 1)round robin 2)กระจายตาม loads ของเเต่ละ server
--เเบ่งเป็น2ส่วน 1)front คือตัวapi, 2)backคือ webserver
+-มีวิธี 2 เเบบ 
+1)round robin กระจายเเบบวนกันไป
+2)กระจายตาม loads ของเเต่ละ server
+-เเบ่งเป็น2ส่วน 
+1)front คือตัวapi
+2)backคือ webserver
 
 
 events {}
